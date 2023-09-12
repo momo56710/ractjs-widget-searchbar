@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .no-horizontal-scrollbar::-webkit-scrollbar:vertical{
+      display: none;
+    }
+    .no-horizontal-scrollbar:vertical{
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@layer base {
+  html {
+      font-family: 'Proxima Nova';
+      letter-spacing: .3px;
+
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  src: url('../../fonts/ProximaNova-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 500;
+  src: url('../../fonts/Proxima Nova Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  src: url('../../fonts/Proxima-Nova-Sbold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 700;
+  src: url('../../fonts/Proxima Nova Bold.woff') format('woff');
+}
+
+:root{
+  --primary-color:#03A9F4;
+ 
+}
+
+body{
+  color: #242B2E;
+}
+.title{
+  position: relative;
+}
+
+.title::after{
+content: '';
+width: 105%;
+height: 2px;
+background: var(--primary-color);
+position: absolute;
+left: 0;
+bottom: 0;
+
+
+}
+.und{
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color:rgba(0, 0, 0, 0.462) ;
+}
+.dropshd{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.079);
+}
+.shdw{
+  box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.25);
+}
+.shd{
+  box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.10);
+}
+.skeleton{
+  animation: skeleton-loading 1s linear infinite alternate ;
+  border-radius: 8px;
+
+}
+.skeleton-parag{
+
+height:13px ;
+border-radius: .125rem;
+}
+
+.skeleton-title{
+  border-radius: 8px;
+  height: 10px;
+  width: 130px;
+
+}
+.skeleton-title-product{
+  border-radius: 8px;
+  height: 10px;
+  width: 130px;
+  
+  }
+  .skeleton-version-product{
+    border-radius: 8px;
+    height: 9px;
+    width: 95px;
+    
+    }
+.skeleton-version{
+  border-radius: 8px;
+  height: 8px;
+  width: 45px;
+
+  }
+
+
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(195, 25%, 97%);
+  }
+
+  100% {
+    background-color: hsl(0, 0%, 88%);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+
+}
+::-webkit-scrollbar-track {
+  background: #BBC9D7;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #778DA3; 
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b2b2; 
+}
+
+.rtl {
+  direction: rtl;
+  /* Additional styles as needed */
+}
+
+@media (max-width: 320px) {
+.language-drop{
+  transform: scale(0.8);
+  top: -8px;
+  right: -18px;
+}
+.language-drop-rtl{
+  transform: scale(0.8);
+  top: -6px;
+ left: -18px;
+}
+}
+.hpnes{
+  hyphenate-limit-chars: 10 3 4;
+}
+
+.loder{
+  margin-top: 30px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes arrows {
+  0%,60%
+   {
+    transform: scale(1.02);
+    height: 33px;
+  }
+  60% ,100% {
+    transform: scale(1);
+    height: 24px;
+
+  }
+}
+
+.loder span{
+  --delay: 0s;
+  animation: arrows 1s var(--delay) infinite ease-out;
+  transition:all 800ms;
+  width:10px;
+  height:24px;
+  margin:0px 2px;
+  background-color:rgb(200, 200, 200);
+}

@@ -1,0 +1,73 @@
+{
+  "navigationMenu": {
+    "home": "Home",
+    "search": "Search",
+    "compare": "Compare"
+  },
+  "footer": {
+    "text": "Powered by"
+  },
+  "searchPage": {
+    "FilterTooltip": "Filters",
+    "searchBarPlaceholder": "Search for a device",
+    "brandTooltip": "Filter search results by brand",
+    "categoryTooltip": "Filter search results by category",
+    "deviceTypeDropdown": "category",
+    "brandDropdown": "brand",
+    "seeSpecsButtonText": "See specs",
+    "filtersBtn": "Choose an option",
+    "imperialUnitMesg": " Use imperial units",
+    "cancelBtn": "Discard",
+    "seeResultBtn": "See Result",
+    "min": "Min",
+    "max": "Max",
+    "deleteBtn": "Clear All",
+    "noMatchingError": "No matching items found.",
+    "categorySelection": "Choose Category",
+    "filterRefinement": "Refine Filters"
+  },
+  "detailsPage": {
+    "searchBarPlaceholder": "Search for a spec ...",
+    "product": "Product",
+    "category": "Category",
+    "model": "Model",
+    "version": "Version",
+    "brand": "Brand",
+    "date": "Date",
+    "image": "Image",
+    "interCategoryErrorMessage": "You can only compare products from the same category.",
+    "duplicateProductErrorMessage": "This product is already on the comparison page.",
+    "autopilotErrorMessage": "Please select two to three devices to compare!",
+    "front": "Front",
+    "back": "Back"
+  },
+  "languageDropdown": {
+    "title": "Select language",
+    "searchBarPlaceholder": "Search for your language",
+    "noItemMssg":"No Results Found"
+  },
+  "comparisonPage": {
+    "description": "Add products to compare",
+    "recent": "Recent",
+    "recentDropdownText": "Recent items found",
+    "autopilotHeading": "Why we choice this?"
+  },
+  "tooltips": {
+    "design": "Details about the device's physical characteristics.",
+    "display": "Insights into the device's display quality and size.",
+    "camera": "An overview of the camera's capabilities.",
+    "inside": "Detailed information about the device's internal hardware.",
+    "no": "Features that the device lacks.",
+    "technology": "Information about core specs, clock speeds, and software compatibility.",
+    "connectors": "The types and number of input/output ports available.",
+    "memory": "Information about memory size, type, and speed.",
+    "power": "Data on power usage and maximum operating temperatures.",
+    "performance": "Details about fill rates, compute power, and other performance metrics.",
+    "autopilotButton": "Engage 'Autopilot' to automatically compare devices side-by-side. Powered by AI, Autopilot thoroughly assesses the specifications, strengths, and weaknesses of each device, and provides a detailed yet easy-to-understand summary of key differences.",
+    "autopilot": "Engage 'Autopilot' to automatically compare devices side-by-side. Powered by AI, Autopilot thoroughly assesses the specifications, strengths, and weaknesses of each device, and provides a detailed yet easy-to-understand summary of key differences."
+  },
+  "buttons": {
+    "moreBtn": "Show More",
+    "lessBtn": "Show Less"
+  }
+}

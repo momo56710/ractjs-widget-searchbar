@@ -1,0 +1,78 @@
+{
+  "navigationMenu": {
+    "home": "Home",
+    "search": "Szukaj",
+    "compare": "Porównaj"
+  },
+  "footer": {
+    "text": "Napędzane przez"
+  },
+
+  "searchPage": {
+    "FilterTooltip": "Filtry",
+    "searchBarPlaceholder": "Znajdź urządzenie",
+    "brandTooltip": "Filtruj wyniki według marki",
+    "categoryTooltip": "Filtruj wyniki według kategorii",
+    "deviceTypeDrop": "Typ urządzenia",
+    "brandDrop": "Marka",
+    "SeeButton": "zobacz specyfikacje",
+    "deviceTypeDropdown": "kategoria",
+    "brandDropdown": "marka",
+    "seeSpecsButtonText": "Zobacz specyfikacje",
+    "filtersBtn": "Wybierz opcję",
+    "imperialUnitMesg": " Użyj jednostek imperialnych",
+    "cancelBtn": "Anuluj",
+    "seeResultBtn": "Zobacz wynik",
+    "min": "Min",
+    "max": "Max",
+    "deleteBtn": "Wyczyść wszystkie filtry",
+    "noMatchingError": "Nie znaleziono pasujących elementów.",
+    "categorySelection": "Wybór Kategorii",
+    "filterRefinement": "Doprecyzowanie Filtrowania"
+  },
+  "detailsPage": {
+    "searchBarPlaceholder": "Znajdź specyfikację ...",
+    "product": "Produkt",
+    "category": "Kategoria",
+    "model": "Model",
+    "version": "Wersja",
+    "brand": "Brand",
+    "date": "Data",
+    "image": "Obraz",
+    "interCategoryErrorMessage": "Możesz porównywać tylko produkty z tej samej kategorii.",
+    "duplicateProductErrorMessage": "Ten produkt jest już na stronie porównywania.",
+    "autopilotErrorMessage": "Proszę wybrać dwa lub trzy urządzenia do porównania!",
+    "front": "Przód",
+    "back": "Tył"
+  },
+  "languageDropdown": {
+    "title": "Wybierz język",
+    "searchBarPlaceholder": "Znajdź swój język",
+    "noItemMssg":"Nie znaleziono wyników"
+
+  },
+  "comparisonPage": {
+    "description": "Dodaj produkty do porównania",
+    "recent": "Najnowsze",
+    "recentDropdownText": "znaleziono ostatnio",
+    "autopilotHeading": "Dlaczego wybraliśmy ten produkt?"
+  },
+  "tooltips": {
+    "design": "Szczegóły dotyczące fizycznych cech urządzenia.",
+    "display": "Wskazówki dotyczące jakości i rozmiaru wyświetlacza urządzenia.",
+    "camera": "Przegląd możliwości aparatu urządzenia.",
+    "inside": "Szczegółowe informacje o wewnętrznych podzespołach urządzenia.",
+    "no": "Funkcje, których urządzenie nie posiada.",
+    "technology": "Informacje o kluczowych parametrach technicznych, prędkościach zegarowych i zgodności oprogramowania.",
+    "connectors": "Rodzaje i liczba dostępnych portów wejścia/wyjścia.",
+    "memory": "Informacje o rozmiarze pamięci, jej typie i prędkości.",
+    "power": "Dane dotyczące zużycia energii i maksymalnych temperatur pracy.",
+    "performance": "Szczegóły dotyczące szybkości wypełniania, mocy obliczeniowej i innych wskaźników wydajności.",
+    "autopilotButton": "Włącz tryb 'Autopilot', aby automatycznie porównać urządzenia obok siebie. Działający na zasadzie sztucznej inteligencji, Autopilot dokładnie ocenia specyfikacje, mocne strony i słabości każdego urządzenia, dostarczając szczegółowe, ale łatwe do zrozumienia podsumowanie kluczowych różnic.",
+    "autopilot": "Włącz tryb 'Autopilot', aby automatycznie porównać urządzenia obok siebie. Działający na zasadzie sztucznej inteligencji, Autopilot dokładnie ocenia specyfikacje, mocne strony i słabości każdego urządzenia, dostarczając szczegółowe, ale łatwe do zrozumienia podsumowanie kluczowych różnic."
+  },
+  "buttons": {
+    "moreBtn": "Więcej",
+    "lessBtn": "Mniej"
+  }
+}

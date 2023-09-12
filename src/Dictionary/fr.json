@@ -1,0 +1,75 @@
+{
+  "navigationMenu": {
+    "home": "Accueil",
+
+    "search": "Rechercher",
+    "compare": "Comparer"
+  },
+  "footer": {
+    "text": "Alimenté par"
+  },
+  "searchPage": {
+    "FilterTooltip": "Filtres",
+    "searchBarPlaceholder": "Rechercher un appareil",
+    "brandTooltip": "Filtrer les résultats de recherche par marque",
+    "categoryTooltip": "Filtrer les résultats de recherche par catégorie",
+    "deviceTypeDropdown": "Sélectionner une catégorie",
+    "brandDropdown": "Sélectionner une marque",
+    "seeSpecsButtonText": "Voir les détails",
+    "filtersBtn": "Choisir une option",
+    "imperialUnitMesg": " Utiliser les unités impériales",
+    "cancelBtn": "Annuler",
+    "seeResultBtn": "Voir le résultat",
+    "min": "Min",
+    "max": "Max",
+    "deleteBtn": "Effacer tous les filtres",
+    "noMatchingError": "Aucun élément correspondant trouvé.",
+    "categorySelection": "Sélection de Catégorie",
+    "filterRefinement": "Affinement des Filtres"
+  },
+  "detailsPage": {
+    "searchBarPlaceholder": "Rechercher une spécification ...",
+    "product": "Produit",
+    "category": "Catégorie",
+    "model": "Modèle",
+    "version": "Version",
+    "brand": "Marque",
+    "image": "Image",
+    "date": "Date",
+    "interCategoryErrorMessage": "Vous ne pouvez comparer que des produits de la même catégorie.",
+    "duplicateProductErrorMessage": "Ce produit est déjà sur la page de comparaison.",
+    "autopilotErrorMessage": "Veuillez sélectionner deux à trois appareils à comparer !",
+    "front": "Avant",
+    "back": "Retour"
+  },
+  "languageDropdown": {
+    "title": "Sélectionner la langue",
+    "searchBarPlaceholder": "Rechercher votre langue",
+    "noItemMssg":"Aucun résultat trouvé"
+
+  },
+  "comparisonPage": {
+    "description": "Ajouter des produits à comparer",
+    "recent": "Recherches récentes",
+    "recentDropdownText": "Articles récents trouvés",
+    "autopilotHeading": "Pourquoi avons-nous choisi ce dispositif ?"
+  },
+  "tooltips": {
+    "design": "Détails sur les caractéristiques physiques de l'appareil.",
+    "affichage": "Aperçu de la qualité et de la taille de l'affichage de l'appareil.",
+    "appareil photo": "Aperçu des capacités de l'appareil photo.",
+    "intérieur": "Informations détaillées sur le matériel interne de l'appareil.",
+    "non": "Caractéristiques manquantes de l'appareil.",
+    "technologie": "Informations sur les spécifications de base, les vitesses d'horloge et la compatibilité logicielle.",
+    "connecteurs": "Les types et le nombre de ports d'entrée/sortie disponibles.",
+    "stockage": "Informations sur la taille, le type et la vitesse de la mémoire.",
+    "alimentation": "Données sur la consommation d'énergie et les températures maximales de fonctionnement.",
+    "performance": "Détails sur les taux de remplissage, la puissance de calcul et autres métriques de performance.",
+    "autopilotButton": "Veuillez noter que la fonctionnalité de pilote automatique est disponible pour un maximum de deux à trois produits à la fois.",
+    "autopilot": "Description de l'autopilote"
+  },
+  "buttons": {
+    "moreBtn": "Plus",
+    "lessBtn": "Moins"
+  }
+}

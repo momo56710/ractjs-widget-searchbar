@@ -1,0 +1,74 @@
+{
+  "navigationMenu": {
+    "home": "Inicio",
+    "search": "Buscar",
+    "compare": "Comparar"
+  },
+  "footer": {
+    "text": "Impulsado por"
+  },
+  "searchPage": {
+    "FilterTooltip": "Filtros",
+    "searchBarPlaceholder": "Buscar un dispositivo",
+    "brandTooltip": "Filtrar resultados de búsqueda por marca",
+    "categoryTooltip": "Filtrar resultados de búsqueda por categoría",
+    "deviceTypeDropdown": "Seleccionar categoría",
+    "brandDropdown": "Seleccionar marca",
+    "seeSpecsButtonText": "Ver especificaciones",
+    "filtersBtn": "Elegir una opción",
+    "imperialUnitMesg": " Usar unidades imperiales",
+    "cancelBtn": "Descartar",
+    "seeResultBtn": "Ver resultado",
+    "min": "Mín",
+    "max": "Máx",
+    "deleteBtn": "Borrar todos los filtros",
+    "noMatchingError": "No se encontraron elementos coincidentes.",
+    "categorySelection": "Selección de Categoría",
+    "filterRefinement": "Refinamiento de Filtros"
+  },
+  "detailsPage": {
+    "searchBarPlaceholder": "Buscar una especificación ...",
+    "product": "Producto",
+    "category": "Categoría",
+    "model": "Modelo",
+    "version": "Versión",
+    "image": "Imagen",
+    "brand": "Marca",
+    "date": "Fecha",
+    "interCategoryErrorMessage": "Sólo puedes comparar productos de la misma categoría.",
+    "duplicateProductErrorMessage": "Este producto ya está en la página de comparación.",
+    "autopilotErrorMessage": "¡Por favor, selecciona dos o tres dispositivos para comparar!",
+    "front": "Frontal",
+    "back": "Volver"
+  },
+  "languageDropdown": {
+    "title": "Seleccionar idioma",
+    "searchBarPlaceholder": "Buscar tu idioma",
+    "noItemMssg":"No se encontraron resultados"
+
+  },
+  "comparisonPage": {
+    "description": "Agregar productos para comparar",
+    "recent": "Búsquedas recientes",
+    "recentDropdownText": "Artículos recientes encontrados",
+    "autopilotHeading": "¿Por qué elegimos este dispositivo?"
+  },
+  "tooltips": {
+    "diseño": "Detalles sobre las características físicas del dispositivo.",
+    "pantalla": "Información sobre la calidad y tamaño de la pantalla del dispositivo.",
+    "cámara": "Una visión general de las capacidades de la cámara.",
+    "dentro": "Información detallada sobre el hardware interno del dispositivo.",
+    "no": "Funciones que le falta al dispositivo.",
+    "tecnología": "Información sobre las especificaciones principales, velocidades de reloj y compatibilidad de software.",
+    "conectores": "Los tipos y el número de puertos de entrada/salida disponibles.",
+    "almacenamiento": "Información sobre el tamaño, tipo y velocidad de la memoria.",
+    "energía": "Datos sobre el consumo de energía y las temperaturas máximas de funcionamiento.",
+    "rendimiento": "Detalles sobre las tasas de llenado, la potencia de cálculo y otras métricas de rendimiento.",
+    "autopilotButton": "Tenga en cuenta que la función de piloto automático está disponible para un máximo de dos a tres productos a la vez.",
+    "autopilot": "Descripción del piloto automático"
+  },
+  "buttons": {
+    "moreBtn": "Más",
+    "lessBtn": "Menos"
+  }
+}

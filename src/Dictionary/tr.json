@@ -1,0 +1,74 @@
+{
+  "navigationMenu": {
+    "home": "Anasayfa",
+    "search": "Ara",
+    "compare": "Karşılaştır"
+  },
+  "footer": {
+    "text": "Tarafından desteklenmektedir"
+  },
+  "searchPage": {
+    "FilterTooltip": "Filtreler",
+    "searchBarPlaceholder": "Bir cihaz ara",
+    "brandTooltip": "Arama sonuçlarını markaya göre filtrele",
+    "categoryTooltip": "Arama sonuçlarını kategoriye göre filtrele",
+    "deviceTypeDropdown": "Kategori seç",
+    "brandDropdown": "Marka seç",
+    "seeSpecsButtonText": "Özelliklere bak",
+    "filtersBtn": "Bir seçenek seçin",
+    "imperialUnitMesg": " İmparatorluk birimleri kullan",
+    "cancelBtn": "İptal",
+    "seeResultBtn": "Sonucu görüntüle",
+    "min": "Minimum",
+    "max": "Maksimum",
+    "deleteBtn": "Tüm filtreleri temizle",
+    "noMatchingError": "Eşleşen öğe bulunamadı.",
+    "categorySelection": "Kategori Seçimi",
+"filterRefinement": "Filtre Düzeltme"
+  },
+  "detailsPage": {
+    "searchBarPlaceholder": "Bir özellik ara ...",
+    "product": "Ürün",
+    "category": "kategori",
+    "model": "Modeli",
+    "version": "Sürüm",
+    "image": "Resim",
+    "brand": "Marka",
+    "date": "Tarih",
+    "interCategoryErrorMessage": "Sadece aynı kategoriden ürünleri karşılaştırabilirsiniz.",
+    "duplicateProductErrorMessage": "Bu ürün zaten karşılaştırma sayfasında.",
+    "autopilotErrorMessage": "Lütfen karşılaştırma yapmak için iki ila üç cihaz seçin!",
+    "front": "Ön",
+    "back": "Arka"
+  },
+  "languageDropdown": {
+    "title": "Dil seç",
+    "searchBarPlaceholder": "Dilinizi arayın",
+    "noItemMssg":"Sonuç Bulunamadı"
+
+  },
+  "comparisonPage": {
+    "description": "Karşılaştırılacak ürünler ekle",
+    "recent": "Son aramalar",
+    "recentDropdownText": "Son bulunan öğeler",
+    "autopilotHeading": "Neden bu cihazı seçtik?"
+},
+  "tooltips": {
+    "tasarım": "Cihazın fiziksel özellikleri hakkında detaylar.",
+    "ekran": "Cihazın ekran kalitesi ve boyutu hakkında bilgiler.",
+    "kamera": "Kameranın yetenekleri hakkında genel bir bakış.",
+    "İçeri": "Cihazın dahili donanımı hakkında detaylı bilgi.",
+    "hayır": "Cihazın sahip olmadığı özellikler.",
+    "teknoloji": "Çekirdek özellikler, saat hızları ve yazılım uyumluluğu hakkında bilgi.",
+    "bağlantı noktaları": "Mevcut giriş/çıkış portlarının türleri ve sayısı.",
+    "depolama": "Bellek boyutu, tipi ve hızı hakkında bilgi.",
+    "güç": "Enerji kullanımı ve maksimum işletim sıcaklıkları hakkında veri.",
+    "performans": "Doluluk oranları, hesaplama gücü ve diğer performans metrikleri hakkında detaylar.",
+    "autopilotButton": "Lütfen otomatik pilot özelliğinin aynı anda en fazla iki ila üç ürün için kullanılabilir olduğunu unutmayın.",
+    "autopilot": "Otomatik pilot açıklaması"
+  },
+  "buttons": {
+    "moreBtn": "Daha fazla",
+    "lessBtn": "Daha az"
+  }
+}
