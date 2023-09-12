@@ -207,12 +207,12 @@ const Search = () => {
   });
 
   return (
-    <div className={`w-full bg-white  ${isRTL ? "rtl" : "ltr"} `}>
+    <div className={`overflow-y-scroll h-[70vh] w-full bg-yellow-200  ${isRTL ? "rtl" : "ltr"} `}>
       {!filtersPage && (
         <>
-          <div className="sticky top-0 bg-white z-50">
+          <div className="sticky top-0 bg-yellow-200  z-50">
             <NavBar />
-            <animated.div
+            <div
               style={slideIn}
               className="container mx-auto p-3 z-10"
             >
@@ -285,7 +285,7 @@ const Search = () => {
                   </div>
                 )}
               </div>
-            </animated.div>
+            </div>
           </div>
           {!skl && myData.length === 0 && (
             <div className=" top-9 w-[97%]  fixed h-screen   flex items-center justify-center">
@@ -543,11 +543,7 @@ const Search = () => {
           </div>
         </div>
       )}
-      {!filtersPage && (
-        <div className="fixed border-[1px] bottom-0 left-0 w-full z-20  border-t-gray-color">
-          <Footer img={settings.innerPageLogo} />
-        </div>
-      )}{" "}
+    
     </div>
   );
 };

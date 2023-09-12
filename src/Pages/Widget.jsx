@@ -9,12 +9,11 @@ const Widget = () => {
   // Remove "http://" or "https://" from the hostname
   const startIndex = fullParentHostname?.indexOf("//") + 2;
   const cleanParentHostname = fullParentHostname?.substring(startIndex);
-useEffect(()=>{
-  window.plausible('Inline Widget Loaded', {
-    host: cleanParentHostname,
-  });
-}, []);
-
+  useEffect(() => {
+    window.plausible("Inline Widget Loaded", {
+      host: cleanParentHostname,
+    });
+  }, []);
 
   const { currentPage, setCurrentPage } = useContext(UserContext);
   useEffect(() => {
@@ -44,7 +43,7 @@ useEffect(()=>{
         return null;
     }
   };
-  return <>{renderPage()}</>;
+  return <div className=" fixed w-[80vw] h-fit top-5 left-4">{renderPage()}</div>;
 };
 
 export default Widget;

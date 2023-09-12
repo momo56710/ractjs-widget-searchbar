@@ -8,9 +8,11 @@ function App() {
    
      <UserContextProvider>
       
-      <div className='h-screen w-full bg-white'>
+      <div className=' bg-yellow-200'>
        <Widget />
       </div>
+      <div className='mt-[15em]'> another content</div>
+    
     </UserContextProvider>
    
   )

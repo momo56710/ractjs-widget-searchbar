@@ -30,13 +30,13 @@ const Home = () => {
 
   return (
     <div
-      className={`w-full h-screen overflow-y-auto bg-white ${
+      className={`overflow-y-auto bg-yellow-200 ${
         isRTL ? "rtl" : "ltr"
       }`}
     >
       <div
         style={{ background: settings.themeColor }}
-        className="h-32 mb-24 lg:mb-28 w-full"
+      
       >
         <div className="p-3 pb-0">
           <NavBar home={true} />
@@ -59,9 +59,7 @@ const Home = () => {
       </div>
 
     
-      <div className="fixed bottom-0 left-0 w-full z-20 border-t-gray-color border-[1px] ">
-        <Footer img={settings.innerPageLogo} />
-      </div>
+     
     </div>
   );
 };
