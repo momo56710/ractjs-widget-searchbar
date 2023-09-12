@@ -71,18 +71,8 @@ const SearchBar = ({ home }) => {
       className={`mb-1 py-3`}
       onSubmit={(e) => handleSearch(e)}
     >
-      {home && (
-        <div className=" w-full">
-          <label
-            style={{ borderColor: settings.themeColor }}
-            htmlFor="default-search"
-            className="font-medium uppercase pb-2 text-xs border-b-2 w-fit  relative "
-          >
-            {t("navigationMenu.search")}
-          </label>
-        </div>
-      )}
-      <div className="relative mt-7">
+     
+      <div className="relative">
         <div
           className={`absolute inset-y-0  ${
             isRTL ? " right-0 pr-3" : " left-0 pl-3"

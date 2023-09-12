@@ -7,6 +7,7 @@ function App() {
   return (
    
      <UserContextProvider>
+      
       <div className='h-screen w-full bg-white'>
        <Widget />
       </div>

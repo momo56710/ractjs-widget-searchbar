@@ -58,13 +58,7 @@ const Home = () => {
         </animated.div>
       </div>
 
-      <animated.div
-        className="container mx-auto w-[97%] overflow-y-auto p-1 z-0 mt-28 sm:mt-24 "
-        style={isRTL ? slideIn : slideIn1}
-      >
-        <SearchBar home={true} />
-        <Recent />
-      </animated.div>
+    
       <div className="fixed bottom-0 left-0 w-full z-20 border-t-gray-color border-[1px] ">
         <Footer img={settings.innerPageLogo} />
       </div>
