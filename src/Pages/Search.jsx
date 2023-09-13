@@ -10,7 +10,7 @@ import axios from "axios";
 import { useTranslation } from "react-i18next";
 import PropertyList from "../componetns/PropertyList";
 import FiltersTags from "../componetns/FiltersTags";
-
+import Recent from "../componetns/Recent";
 const Search = () => {
   const [t, i18n] = useTranslation();
 
@@ -216,7 +216,7 @@ const Search = () => {
               style={slideIn}
               className="container  p-3 z-10"
             >
-              
+              <Recent />
               {Error && (
                 <div className="fixed z-[999999999] top-1/2 left-1/2 -translate-x-1/2 bg-red-200 px-7 py-1 rounded-md mb-3 w-fit mx-auto">
                   {t("detailsPage.interCategoryErrorMessage")}
