@@ -43,7 +43,7 @@ const Widget = () => {
         return null;
     }
   };
-  return <div className=" fixed w-[80vw] h-fit top-5 left-4">{renderPage()}</div>;
+  return <div>{renderPage()}</div>;
 };
 
 export default Widget;

@@ -207,10 +207,10 @@ const Search = () => {
   });
 
   return (
-    <div className={`overflow-y-scroll h-[70vh] w-full bg-yellow-200  ${isRTL ? "rtl" : "ltr"} `}>
+    <animated.div className={`h-[90vh] w-full  bg-white ${isRTL ? "rtl" : "ltr"} `}>
       {!filtersPage && (
         <>
-          <div className="sticky top-0 bg-yellow-200  z-50">
+          <div className="sticky top-0 bg-white  z-50">
             <NavBar />
             <div
               style={slideIn}
@@ -288,7 +288,7 @@ const Search = () => {
             </div>
           </div>
           {!skl && myData.length === 0 && (
-            <div className=" top-9 w-[97%]  fixed h-screen   flex items-center justify-center">
+            <div className=" top-9 w-[97%]  fixed    flex items-center justify-center">
               <animated.div style={slideIn1}>
                 <svg
                   width="80"
@@ -499,7 +499,7 @@ const Search = () => {
         </>
       )}
       {filtersPage && (
-        <div className="flex-col flex h-screen">
+        <div className="flex-col  bg-white flex h-full">
           <div className=" bg-white z-50">
             <NavBar />
           </div>
@@ -537,14 +537,11 @@ const Search = () => {
               {" (" + (totalResult !== undefined ? totalResult : "0") + ")"}
             </button>
           </animated.div>
-          <div className="z-20 border-[1px] border-t-gray-color">
-            {" "}
-            <Footer img={settings.innerPageLogo} />
-          </div>
+         
         </div>
       )}
     
-    </div>
+    </animated.div>
   );
 };
 

@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div
-      className={`overflow-y-auto bg-yellow-200 ${
+      className={`overflow-y-auto bg-white ${
         isRTL ? "rtl" : "ltr"
       }`}
     >
@@ -41,21 +41,7 @@ const Home = () => {
         <div className="p-3 pb-0">
           <NavBar home={true} />
         </div>
-        <animated.div
-          style={isRTL ? slideIn : slideIn1}
-          className={`container p-1 w-[97%] mx-auto`}
-        >
-          {settings.welcomeSecondary.length > 0 ? (
-            <div className="bg-white rounded-lg p-5 py-4  w-full border-1  mt-5 sm:mt-7 shadow-sm border-gray-200 border ">
-              <h4 className="font-bold text-xl mb-1 color-[#242B2E]">
-                {settings.welcomePrimary}
-              </h4>
-              <p className="font-normal text-sm">{settings.welcomeSecondary}</p>
-            </div>
-          ) : (
-            ""
-          )}
-        </animated.div>
+       
       </div>
 
     

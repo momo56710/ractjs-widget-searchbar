@@ -1,21 +1,19 @@
-import './App.css'
-import {  UserContextProvider} from './Pages/UserContext';
-import Widget from './Pages/Widget';
+import SearchBar from "./SearchBar";
 function App() {
-
-
   return (
-   
-     <UserContextProvider>
-      
-      <div className=' bg-yellow-200'>
-       <Widget />
+    <>
+      <div className="fixed top-0 w-screen h-fit"><SearchBar /></div>
+      <div className="mt-[10em]">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci
+        nam dignissimos tempora repudiandae? Odio culpa asperiores eius, earum
+        beatae excepturi voluptas ipsam illum, ratione quaerat explicabo quae.
+        Adipisci odit in facilis est! Adipisci laudantium, ipsum placeat rem
+        quidem fugiat pariatur nesciunt obcaecati nisi? Dolores, natus eos
+        quibusdam sit odio unde dolorum deserunt nulla. Consequuntur omnis
+        laborum hic asperiores perferendis!
       </div>
-      <div className='mt-[15em]'> another content</div>
-    
-    </UserContextProvider>
-   
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

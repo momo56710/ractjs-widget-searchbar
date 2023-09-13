@@ -140,17 +140,14 @@ const LanguageDrop = ({ home }) => {
     }
   }
   return (
-    <div className="relative">
+    <div>
       <div
         className="flex gap-2 items-center cursor-pointer "
         onClick={handelClick}
       >
         <p
-          className={`${
-            home
-              ? "text-white decoration-[#cacccd] "
-              : "text-[#242B2E] decoration-[#505152] "
-          } z-[90] capitalize hover:underline   text-sm `}
+          className={` text-[#242B2E] decoration-[#505152] 
+          z-[90] capitalize hover:underline  text-sm `}
         >
           {(storedLanguage && JSON.parse(storedLanguage).name) || currentLang}
         </p>
@@ -177,7 +174,7 @@ const LanguageDrop = ({ home }) => {
       {open && (
         <>
           <div
-            className={`overlay bg-[#29282880] w-full h-full fixed top-0  z-[100] right-0`}
+            className={`overlay bg-[#29282880] h-[20em] fixed top-  z-[100] right-0`}
             onClick={() => setOpen(false)}
           ></div>
 
@@ -318,7 +315,9 @@ const LanguageDrop = ({ home }) => {
                 </div>
               ))}
               {filteredlanguages.length === 0 && searchQuery !== "" && (
-                <p className="p-2 text-center color-[#242B2E] text-base  font-semibold">{t('languageDropdown.noItemMssg')}</p>
+                <p className="p-2 text-center color-[#242B2E] text-base  font-semibold">
+                  {t("languageDropdown.noItemMssg")}
+                </p>
               )}
             </div>
           </div>
