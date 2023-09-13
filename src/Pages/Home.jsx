@@ -39,7 +39,7 @@ const Home = () => {
       
       >
         <div className="p-3 pb-0">
-          <NavBar home={true} />
+          <NavBar home={true} lang={true}/>
         </div>
        
       </div>

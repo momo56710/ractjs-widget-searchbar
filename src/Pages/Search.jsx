@@ -207,16 +207,16 @@ const Search = () => {
   });
 
   return (
-    <animated.div className={`h-[90vh] w-full  bg-white ${isRTL ? "rtl" : "ltr"} `}>
+    <animated.div className={`h-[90vh] p-3 pb-0  ${isRTL ? "rtl" : "ltr"} `}>
       {!filtersPage && (
         <>
-          <div className="sticky top-0 bg-white  z-50">
-            <NavBar />
+          <div className="sticky top-0 bg-white z-50">
+            <NavBar home={true} lang={false} search={true}/>
             <div
               style={slideIn}
-              className="container mx-auto p-3 z-10"
+              className="container  p-3 z-10"
             >
-              <SearchBar home={false} />
+              
               {Error && (
                 <div className="fixed z-[999999999] top-1/2 left-1/2 -translate-x-1/2 bg-red-200 px-7 py-1 rounded-md mb-3 w-fit mx-auto">
                   {t("detailsPage.interCategoryErrorMessage")}

@@ -3,7 +3,7 @@ import { UserContext } from "../Pages/UserContext";
 import LanguageDrop from "./LanguageDrop";
 import { useTranslation } from "react-i18next";
 import SearchBar from "./SearchBar";
-const NavBar = ({ home }) => {
+const NavBar = ({ home, search,lang }) => {
   const {
     setactive,
     settings,
@@ -45,7 +45,7 @@ const NavBar = ({ home }) => {
         <SearchBar home={true} />
       </div>
       <div className={`container mx-auto flex items-center justify-start `}>
-        {!home && (
+        {search && (
           <button
             onClick={() => {
               if (!filtersPage) {
@@ -64,11 +64,12 @@ const NavBar = ({ home }) => {
             />
           </button>
         )}
+
         {logo !== "" && (
           <img src={logo} alt="logo" className={`max-h-[25px]`} />
         )}
       </div>
-      <LanguageDrop home={home} />
+      {lang && <LanguageDrop home={home} />}
     </div>
   );
 };
