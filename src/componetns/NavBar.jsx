@@ -38,11 +38,11 @@ const NavBar = ({ home, search,lang }) => {
           navigateToSearch();
           setactive("search");
         }}
-        className={`container mx-auto w-[97%] overflow-y-auto ${
+        className={`container mx-auto w-fit  ${
           home ? "inline" : "hidden"
         }`}
       >
-        <SearchBar home={true} />
+        <SearchBar home={true} search={search}/>
       </div>
       <div className={`container mx-auto flex items-center justify-start `}>
         {search && (

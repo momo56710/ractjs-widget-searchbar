@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect, useRef } from "react";
 import { UserContext } from "../Pages/UserContext";
 import { useTranslation } from "react-i18next";
-const SearchBar = ({ home }) => {
+const SearchBar = ({ home , search}) => {
   const { t, i18n } = useTranslation();
   const {
     settings,
@@ -67,14 +67,10 @@ const SearchBar = ({ home }) => {
   };
 
   return (
-    <form
-      className={`mb-1 py-3`}
-      onSubmit={(e) => handleSearch(e)}
-    >
-     
-      <div className="relative">
+    <form className={`mb-1 py-3 `} onSubmit={(e) => handleSearch(e)}>
+      <div className="relative ">
         <div
-          className={`absolute inset-y-0  ${
+          className={`absolute inset-y-0 ${
             isRTL ? " right-0 pr-3" : " left-0 pl-3"
           }  flex items-center  pointer-events-none`}
         >
@@ -104,6 +100,7 @@ const SearchBar = ({ home }) => {
           </svg>
         </div>
         <input
+        autoFocus={search ? true : false}
           onClick={() => {
             if (home) {
               navigateToSearch();
@@ -112,7 +109,7 @@ const SearchBar = ({ home }) => {
           }}
           type="text"
           id="default-search"
-          className={`block w-full ${home?'h-[52px]':'h-[44px]'}   ${
+          className={`block md:w-[30em] ${home ? "h-[52px]" : "h-[44px]"}   ${
             isRTL ? " pr-9" : " pl-9"
           }  placeholder:font-medium  placeholder:text-sm text-sm outline-none text-gray-900 border border-gray-300 hover:border-black rounded-lg`}
           placeholder={t("searchPage.searchBarPlaceholder")}
@@ -163,8 +160,16 @@ const SearchBar = ({ home }) => {
             onMouseEnter={() => setColor("#778da3")}
             onMouseLeave={() => setColor("#E0E0E0")}
             className={` absolute ${
-              isRTL ?(home?" left-0":" left-7")  :(home?" right-0":" right-7") 
-            }   ${home?'bottom-3':'bottom-2'}   px-4 py-[4px] z-10 cursor-pointer`}
+              isRTL
+                ? home
+                  ? " left-0"
+                  : " left-7"
+                : home
+                ? " right-0"
+                : " right-7"
+            }   ${
+              home ? "bottom-3" : "bottom-2"
+            }   px-4 py-[4px] z-10 cursor-pointer`}
           >
             <svg
               width="18"

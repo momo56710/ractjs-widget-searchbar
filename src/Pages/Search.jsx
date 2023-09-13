@@ -207,10 +207,10 @@ const Search = () => {
   });
 
   return (
-    <animated.div className={`h-[90vh] p-3 pb-0  ${isRTL ? "rtl" : "ltr"} `}>
+    <animated.div className={`h-[90vh] w-fit p-3 pb-0 bg-white max-md:w-screen ${isRTL ? "rtl" : "ltr"} `}>
       {!filtersPage && (
         <>
-          <div className="sticky top-0 bg-white z-50">
+          <div className="sticky top-0  z-50">
             <NavBar home={true} lang={false} search={true}/>
             <div
               style={slideIn}
@@ -287,41 +287,9 @@ const Search = () => {
               </div>
             </div>
           </div>
-          {!skl && myData.length === 0 && (
-            <div className=" top-9 w-[97%]  fixed    flex items-center justify-center">
-              <animated.div style={slideIn1}>
-                <svg
-                  width="80"
-                  height="80"
-                  viewBox="0 0 25 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_35_17451)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M23.2296 20.5679L17.3085 14.6119C18.5611 12.7786 19.0872 10.5407 18.7835 8.33745C18.4798 6.13415 17.3682 4.12457 15.667 2.70307C13.9658 1.28156 11.7977 0.550787 9.58824 0.654176C7.37881 0.757565 5.28757 1.68765 3.72494 3.26188C2.16231 4.83612 1.24113 6.94083 1.14218 9.16297C1.04324 11.3851 1.77367 13.5642 3.19013 15.2726C4.60659 16.981 6.6068 18.0953 8.7982 18.3969C10.9896 18.6984 13.214 18.1655 15.0347 16.9026L20.9545 22.8586C21.2566 23.162 21.6661 23.3323 22.093 23.3321C22.5199 23.3318 22.9293 23.161 23.231 22.8573C23.5327 22.5535 23.702 22.1417 23.7018 21.7123C23.7015 21.283 23.5317 20.8713 23.2296 20.5679ZM4.3831 9.57459C4.38257 8.64279 4.61054 7.72524 5.04682 6.9032C5.48309 6.08116 6.1142 5.37999 6.88426 4.8618C7.65432 4.34361 8.53957 4.02438 9.4616 3.93239C10.3836 3.84041 11.314 3.97851 12.1702 4.33445C13.0265 4.69039 13.7823 5.25318 14.3707 5.973C14.9591 6.69283 15.3618 7.54746 15.5434 8.4612C15.7249 9.37495 15.6796 10.3196 15.4114 11.2115C15.1432 12.1034 14.6605 12.9151 14.0059 13.5746C13.2183 14.3671 12.2147 14.9068 11.122 15.1255C10.0293 15.3441 8.89664 15.2319 7.8674 14.8029C6.83816 14.374 5.95858 13.6476 5.34 12.7157C4.72141 11.7838 4.39164 10.6884 4.39238 9.56791L4.3831 9.57459Z"
-                      fill="rgb(215 219 222)"
-                      stroke="white"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_35_17451">
-                      <rect
-                        width="24"
-                        height="24"
-                        fill="white"
-                        transform="translate(0.5)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </animated.div>
-            </div>
-          )}
+          
 
-          <div className="overflow-y-auto container w-[97%] bg-white  p-3  pt-3  -mt-[21px] mx-auto pb-[105px]">
+          <div className="overflow-y-auto container w-[97%] h-[60%] bg-white  p-3  pt-3  -mt-[21px] mx-auto pb-[105px]">
             {myData && myData.length > 0 ? (
               <>
                 {myData.map((item, index) => (
@@ -499,7 +467,7 @@ const Search = () => {
         </>
       )}
       {filtersPage && (
-        <div className="flex-col  bg-white flex h-full">
+        <div className="flex-col  bg-white flex h-full  md:w-[30em]">
           <div className=" bg-white z-50">
             <NavBar />
           </div>
