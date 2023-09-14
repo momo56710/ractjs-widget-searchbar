@@ -1613,7 +1613,7 @@ const PropertyList = () => {
         })}
 
       {category === t("searchPage.deviceTypeDropdown").toLowerCase() && (
-        <div className="flex items-center h-[calc(100vh-275px)] z-[5000001] overflow-hidden  justify-center  ">
+        <div className="flex items-center h-full z-[5000001] overflow-hidden  justify-center  ">
           <div className=" ">
             <p className="text-black text-sm mb-1">{"Category"}</p>
             <button

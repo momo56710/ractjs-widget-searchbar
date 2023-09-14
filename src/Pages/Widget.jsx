@@ -43,7 +43,7 @@ const Widget = () => {
         return null;
     }
   };
-  return <div>{renderPage()}</div>;
+  return <div className="fixed top-0 left-0 w-screen">{renderPage()}</div>;
 };
 
 export default Widget;

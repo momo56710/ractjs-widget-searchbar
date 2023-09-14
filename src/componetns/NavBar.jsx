@@ -29,7 +29,7 @@ const NavBar = ({ home, search,lang }) => {
   Logo();
   return (
     <div
-      className={`${
+      className={`bg-white ${
         home ? "" : "border-b-2 "
       }   border-gray-color  gap-2  py-4  px-3 flex items-center `}
     >

@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div
-      className={`overflow-y-auto bg-white ${
+      className={`overflow-y-auto   ${
         isRTL ? "rtl" : "ltr"
       }`}
     >
@@ -38,7 +38,7 @@ const Home = () => {
         style={{ background: settings.themeColor }}
       
       >
-        <div className="p-3 pb-0">
+        <div>
           <NavBar home={true} lang={true}/>
         </div>
        
